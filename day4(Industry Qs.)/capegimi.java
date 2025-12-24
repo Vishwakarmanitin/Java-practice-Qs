@@ -29,7 +29,7 @@ public class capegimi {
                     maxMarks=marks[k];
                 }
                 else{
-
+                    continue;
                 }
             }
             max[i]=maxMarks;
@@ -37,9 +37,8 @@ public class capegimi {
         }
         for(i=0;i<sem;i++)
         {
-            System.out.println("max marks in sem"+(i+1)+"is"+max[i]);
+            System.out.println("max marks in sem-"+(i+1)+" is "+max[i]);
         }
-
-       
+       sc.close();
     }
 }
